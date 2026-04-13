@@ -5,12 +5,12 @@ This repository contains two tissue-specific genome-scale metabolic models (GEMs
 ## Repository contents
 
 ### Models
-- `model leaf E novogranatense.xml`
-- `model root E novogranatense.xml`
+- `model_leaf_E_novogranatense.xml`
+- `model_root_E_novogranatense.xml`
 
 ### Medium files used in simulations
-- `medium leaf E novogranatense.tsv`
-- `medium root E novogranatense.tsv`
+- `medium_leaf_E_novogranatense.tsv`
+- `medium_root_E_novogranatense.tsv`
 
 ### Objective function
 - `bio2_biomass`
@@ -77,8 +77,8 @@ All basic growth simulations in this repository use:
 ```python
 from cobra.io import read_sbml_model
 
-leaf = read_sbml_model("model leaf E novogranatense.xml")
-root = read_sbml_model("model root E novogranatense.xml")
+leaf = read_sbml_model("model_leaf_E_novogranatense.xml")
+root = read_sbml_model("model_root_E_novogranatense.xml")
 
 print("Leaf:", len(leaf.reactions), len(leaf.metabolites), len(leaf.genes))
 print("Root:", len(root.reactions), len(root.metabolites), len(root.genes))
