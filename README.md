@@ -72,6 +72,9 @@ The TSV files define the simulation media used for each tissue.
 All basic growth simulations in this repository use:
 - `bio2_biomass`
 
+## Jupyter notebook available to check the model
+It is located in the Scripts folder of this project, along with a .py script if you wish to run it locally.
+
 ## Minimal local usage with COBRApy
 
 ```python
