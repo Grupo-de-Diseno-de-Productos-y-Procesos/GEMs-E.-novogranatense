@@ -57,7 +57,8 @@ The manuscript focuses on:
 
 ## Graphical abstract
 
-<img width="1063" height="911" alt="image" src="https://github.com/user-attachments/assets/1c49e066-e7fe-47aa-bc2e-7f50010a1e37" />
+<img width="1448" height="1086" alt="image" src="https://github.com/user-attachments/assets/ed6aeb61-538e-4b6d-aa61-f0cbac3ed55b" />
+ />
 
 
 ## File description
